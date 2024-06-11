@@ -1,6 +1,6 @@
 import styles from "./Profile.module.css";
 
-const Profile = ({ name, tag, location, image, stats }) => {
+export default function Profile({ name, tag, location, image, stats }) {
   return (
     <div className={styles.profile}>
       <div>
@@ -26,6 +26,4 @@ const Profile = ({ name, tag, location, image, stats }) => {
       </ul>
     </div>
   );
-};
-
-export default Profile;
+}

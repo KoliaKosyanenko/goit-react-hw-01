@@ -1,0 +1,39 @@
+.table {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 100px auto;
+}
+
+.theadTb {
+  background-color: #707070;
+  color: #ffffff;
+}
+
+.headName,
+.amount {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.headName {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tableBody .bodyTr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.tableBody .bodyTr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.tableBody .bodyTr:last-of-type {
+  border-bottom: 2px solid #707070;
+}
+
+.tableBody .bodyTr:hover {
+  background-color: #f1f1f1;
+}
